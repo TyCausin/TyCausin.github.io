@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Ty's Website</title>
+        <style>
+            body {
+                background: rgb(56, 56, 56);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+        
+            /* navigation menu */
+            nav {
+                background: rgb(155, 54, 54);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(207, 79, 79);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--All content goes here-->
+        <div id="all-contents">
+            <nav>
+                <h1>Ty's Website</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <!--Sidebar section-->
+                <div class="sidbar">
+                    <img class="sidebar-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Slipknot_at_Roskilde_Festival_2013.jpg/1200px-Slipknot_at_Roskilde_Festival_2013.jpg"
+                </div>
+                <!--Content section-->
+                <div class="content">
+                     <h2>Ty</h2>
+                    <p>Student at East Ascension High</p>
+                    <!--Intersts section-->
+                    <div>
+                        <h3>Interests</h3>
+                        <ul id="interest">
+                            <li>Music</li>
+                            <li>Playing Guitar</li>
+                            <li>Playing With Band</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
